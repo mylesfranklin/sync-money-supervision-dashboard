@@ -5,11 +5,11 @@ const Dashboard: React.FC = () => {
   const [activeTab, setActiveTab] = useState('services');
 
   const tabs = [
-    { id: 'services', label: 'Our Services', icon: Settings },
+    { id: 'services', label: 'Services', icon: Settings },
     { id: 'billing', label: 'Billing Models', icon: DollarSign },
     { id: 'licensing', label: 'Sync Licensing', icon: FileText },
     { id: 'budget', label: 'Budget Example', icon: BarChart3 },
-    { id: 'levers', label: 'Cost Factors', icon: Clock },
+    { id: 'levers', label: 'Factors', icon: Clock },
     { id: 'takeaways', label: 'Key Insights', icon: Lightbulb }
   ];
 
